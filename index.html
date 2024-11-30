@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./Style/style.css">
+      <link rel="stylesheet" href="./Style/normalize.css">
+     <link rel="stylesheet" href="./Style//all.min.css">
+     <link rel="stylesheet" href="./Style/bootstrap.min.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <title>Pato Master</title>
+</head>
+<body>
+
+    <section id="header" class="header transparent">
+        <nav> 
+            <div class="container nav">
+            <img src="./Assets/icons/logo.png" alt="logo" class="logo">
+            <ul class="nav-bar">
+            <li><a href="#home" class="navItem">HOME</a></li>
+            <li><a href="" class="navItem">MENU</a></li>
+            <li><a href="" class="navItem">RESERVATION</a></li>
+            <li><a href="" class="navItem">GALLERY</a></li>
+            <li><a href="" class="navItem">ABOUT</a></li>
+            <li><a href="" class="navItem">BLOG</a></li>
+            <li><a href="" class="navItem">CONTACT</a></li>
+             <div class="icons">
+                
+            <!-- <a href="#"><img src="./Assets/tripadvisor.png" alt="trip-advisor" style="width: 20px;"></a> -->
+           <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+           <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+        <div data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars fa-xl"></i></div>
+          </div>
+        </ul>
+          </div>
+        </nav>
+        </section>
+
+        <div id="carouselExampleCaptions" class="carousel slide ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Assets/master-slides-03.jpg" class="d-block w-100 position-relative" alt="...">
+      <div class="carousel-caption d-none d-md-block caption">
+        <h2 class="welcome courgette-regular">Welcome to </h2>
+        <p class="brand">PATO PLACE</p>
+        <button class="book-btn">LOOK MENU</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./Assets/master-slides-02.jpg" class="d-block w-100 position-relative" alt="...">
+      <div class="carousel-caption d-none d-md-block caption">
+       <h2 class="welcome courgette-regular">Welcome to </h2>
+        <p class="brand">PATO PLACE</p>
+        <button class="book-btn">LOOK MENU</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./Assets/master-slides-01.jpg" class="d-block w-100 position-relative" alt="...">
+      <div class="carousel-caption d-none d-md-block caption">
+       <h2 class="welcome courgette-regular">Welcome to </h2>
+        <p class="brand">PATO PLACE</p>
+        <button class="book-btn">LOOK MENU</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </section>
+
+
+   
+
+
+
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+ 
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body vertical-menu">
+          <ul>
+             <li><a href="#home">HOME</a></li>
+            <li><a href="">MENU</a></li>
+            <li><a href="" >RESERVATION</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="" >ABOUT</a></li>
+            <li><a href="" ">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+             <button class="btn-vertical">RESERVATION</button>
+          </ul>
+         
+          <div class="img-gallery-offcanvas"> 
+           <img src="./Assets/photo-gallery-thumb-01.jpg" alt=""> 
+           <img src="./Assets/photo-gallery-thumb-02.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-03.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-04.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-05.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-06.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-07.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-08.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-09.jpg" alt="">
+        </div>
+  </div>
+</div>
+
+<section id="welcome" >
+  <div>
+    <h3>Italian Restaurant</h3>
+    <h2>WELCOME</h2>
+    <p>Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.</p>
+   <span><a href="#">OUR STORY</a> <i class="fa-solid fa-arrow-right"></i></span> 
+  </div>
+ <div class="zoom"> <img src="./Assets/our-story-01.jpg" alt="."></div>
+</section>
+ 
+
+
+<section id="discover">
+<span>Discover</span>
+<h2>PATO PLACE</h2>
+</section>
+
+
+<section id="gallery" class="container">
+  
+  <div class="gallery-item">
+    <img src="./Assets/intro-01.jpg" alt="">
+    <h2>ROMANTIC RESTAURANT</h2>
+    <p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+     <span><a href="#">LEARN MORE</a> <i class="fa-solid fa-arrow-right"></i></span> 
+  </div>
+  <div class="gallery-item">
+    <img src="./Assets/intro-02.jpg" alt="">
+    <h2>DELICIOUS FOOD</h2>
+    <p>Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
+     <span><a href="#">LEARN MORE</a> <i class="fa-solid fa-arrow-right"></i></span> 
+  </div>
+  <div class="gallery-item">
+    <img src="./Assets/intro-04.jpg" alt ="">
+    <h2>RED WINES YOU LOVE</h2>
+    <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+     <span><a href="#">LEARN MORE</a> <i class="fa-solid fa-arrow-right"></i></span> 
+  </div>
+</section>
+
+     
+<section id="our-menu">
+ <div class="our-menu-heading"> <h2>Discover</h2>
+  <p>OUR MENU</p></div>
+  <div class="food-gallery">
+    <div class="left-menu">
+      <div><img src="./Assets/our-menu-01.jpg" alt=""><img src="./Assets/our-menu-05.jpg" alt=""></div>
+      <div><img src="./Assets/our-menu-13.jpg" alt="" style="width: 90%;"></div>
+    </div>
+    <div class="right-menu">
+      <img src="./Assets/our-menu-08.jpg" alt="">
+      <img src="./Assets/our-menu-10.jpg" alt="">
+      <img src="./Assets/our-menu-16.jpg" alt="">
+  </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section id="events">
+  <div class="our-events-heading">
+     <h2>Upcoming</h2>
+  <p>Events</p></div>
+ 
+
+  <div class="event-popup">
+    
+    <img src="./Assets/event-06.jpg" alt="">
+    
+    <div>
+      <h2>WINES DURING SPECIFIC NIGHTS</h2>
+      <P>Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia</P>
+      <div class="timeline">
+        <div class="text-center" style="color: rgb(108, 104, 104); font-size: 14px;"><span style="color: red; font-size: 40px; font-weight: 600;">25</span> <br>DAYS</div>
+      <div class="text-center" style="color: rgb(108, 104, 104); font-size: 14px;"><span style="color: red; font-size: 40px; font-weight: 600;">09</span><br>HOURS</div>
+      <div class="text-center" style="color: rgb(108, 104, 104); font-size: 14px;"> <span style="color: red; font-size: 40px; font-weight: 600;">38</span><br>MINUTES</div>
+      <div class="text-center" style="color: rgb(108, 104, 104); font-size: 14px;"><span style="color: red; font-size: 40px; font-weight: 600;">10</span><br>SECONDS</div>
+      </div>
+   
+    </div>
+  </div>
+
+
+
+</section>
+
+
+<section id="reservation" >
+
+ <div class="reservation-heading">
+  <h2 class="our-form-heading">Reservation</h2>
+  <p class="our-form-para">BOOK TABLE</p>
+  </div>
+  <div class="form-body">
+  <form>
+  <div>
+    <input type="date" placeholder="20/11/2024">
+  <input type="time" placeholder="9:00">
+ <input type="number" placeholder="1 person">
+  </div>
+  <div>
+    <input type="text" placeholder="Name">
+    <input type="number" placeholder="Phone">
+    <input type="email" placeholder="Email">
+    
+  </div>
+  
+  </form>
+ 
+
+
+<div class="form-img">
+
+</div>
+</div>
+  <div> <button class="btn-book">BOOK TABLE</button></div>
+</section>
+
+
+
+<section id="review">
+   <h2>Customers Say</h2>
+      <p class="para">REVIEW</p>
+ 
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner" >
+    <div class="carousel-item active " data-bs-interval="2000">
+      <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+       <img src="./Assets/avatar-05.jpg" alt="" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid #ff0000;">
+      <p class="p-review">" We are Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis quas ut eaque nulla illum sequi dolores expedita."</p>
+      <span><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i></span>
+      <p class="chef">MARIE SIMMONS - NEW YORK</p>
+    </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+     <img src="./Assets/avatar-04.jpg" alt="" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid #ff0000;">
+      <p class="p-review">" We are Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis quas ut eaque nulla illum sequi dolores expedita."</p>
+      <span><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i></span>
+      <p class="chef">MARIE SIMMONS - NEW YORK</p>
+    </div>
+  </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+    <img src="./Assets/avatar-03.jpg" alt="" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid #ff0000;">
+      <p class="p-review">" We are Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quis quas ut eaque nulla illum sequi dolores expedita."</p>
+      <span><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i><i class="fa-solid fa-star" style="color: #ff0000;"></i></span>
+      <p class="chef">MARIE SIMMONS - NEW YORK</p>
+    </div>
+    
+  </div>
+  </div>
+  <button class="carousel-control-prev prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</section>
+
+
+<section id="our-video">
+ <div class="heading-video"> <h2>Discover</h2>
+  <p>OUR VIDEO</p>
+ <button class="play-pause"><i class="fa-sharp fa-solid fa-play"></i></button></div>
+  
+</section>
+<section id="blog">
+  <div class="blog-heading">
+    <h2>Latest News</h2>
+    <p>THE BLOG</p>
+  </div>
+<div id="blog-gallery" class="container">
+  
+  <div class="gallery-item">
+    <img src="./Assets/blog-01.jpg" alt="">
+    <h2>BEST PLACES FOR WINE</h2>
+    <p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+     <span><a href="#">CONTINUE READING</a> <i class="fa-solid fa-arrow-right"></i></span> 
+  </div>
+  <div class="gallery-item">
+    <img src="./Assets/blog-02.jpg" alt="">
+    <h2>EGGS AND CHEESE</h2>
+    <p>Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
+     <span><a href="#">CONTINUE READING</a> <i class="fa-solid fa-arrow-right"></i></span> 
+  </div>
+  <div class="gallery-item">
+    <img src="./Assets/blog-03.jpg" alt ="">
+    <h2>STYLE THE WEDDING PARTY</h2>
+    <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+     <span><a href="#">CONTINUE READING</a> <i class="fa-solid fa-arrow-right"></i></span> 
+  </div>
+</div>
+</section>
+
+
+<section id="sign-up">
+  <h2>SPECIALS SIGN UP</h2>
+  <div class="input"><input type="email" placeholder="Email Address"> <i class="fa-solid fa-envelope" style="color: #818283;"></i></div>
+  <button>SIGN-UP</button>
+</section>
+
+<footer>
+  <div class="left">
+<div class="contact-us">
+  <h2>CONTACT US</h2>
+ <span><i class="fa-solid fa-location-dot" style="color: #999999;"></i>  8th floor, 379 Hudson St, New York, NY 10018</span>
+ <span><i class="fa-solid fa-phone" style="color: #999999;"></i> (+1) 96 716 6879</span>
+ <span><i class="fa-solid fa-envelope" style="color: #999999;"></i> contact@site.com</span>
+</div>
+<div class="openning-times">
+ <h2>OPENNING TIMES</h2>
+<span> 09:30 AM – 11:00 PM <br>
+Every Day</span>
+</div>
+  </div>
+  <div class="center">
+    <div class="twitter">
+        <h2>LATEST TWITTER</h2>
+      <div> <img src="./Assets//icons/twitter-brands-solid.svg" alt="" style="width: 20px;"> <span> <a href="#">@colorlib</a></span>
+        <div>Activello is a good option. It has a slider built into that displays the featured image in the slider. <a href="#">https://buff.ly/2zaSfAQ</a></div>
+        <span>21 Dec 2017</span></div>
+          <div>
+        <span><img src="./Assets//icons/twitter-brands-solid.svg" alt="" style="width: 20px;"> <a href="#">@colorlib</a></span>
+        <div>Activello is a good option. It has a slider built into that displays the featured image in the slider. <a href="#">https://buff.ly/2zaSfAQ</a></div>
+        <span>21 Dec 2017</span>
+    </div>
+    </div>
+  
+  </div>
+ <div class="right">
+  <h2>GALLERY</h2>
+  <div class="img-gallery">
+  
+           <img src="./Assets/photo-gallery-thumb-01.jpg" alt=""> 
+           <img src="./Assets/photo-gallery-thumb-02.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-03.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-04.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-05.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-06.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-07.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-08.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-09.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-10.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-11.jpg" alt="">
+           <img src="./Assets/photo-gallery-thumb-12.jpg" alt="">
+        
+  </div>
+ </div> 
+</footer>
+
+<section id="copy-right">
+  <div class="icons" style="width: 100px;">
+  <img src="./Assets/icons/facebook-f-brands-solid.svg" alt="" style="width: 10px;">
+  <img src="./Assets/icons/twitter-brands-solid (1).svg" alt="" style="width: 15px;">
+  </div>
+  <div class="copy">
+     Copyright © 2024 All rights reserved | This template is made with by Mariam Emad
+  </div>
+</section>
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
